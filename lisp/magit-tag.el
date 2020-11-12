@@ -40,6 +40,7 @@
    ("-f" "Force"    ("-f" "--force"))
    ("-a" "Annotate" ("-a" "--annotate"))
    ("-s" "Sign"     ("-s" "--sign"))
+   ("-e" "Empty message" ("-m ''" "--message=''"))
    (magit-tag:--local-user)]
   [["Create"
     ("t"  "tag"     magit-tag-create)
